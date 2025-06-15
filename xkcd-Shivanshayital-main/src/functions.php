@@ -87,3 +87,4 @@ function sendXKCDUpdatesToSubscribers(): void {
         mail(trim($email), $subject, $html, $headers);
     }
 }
+// Final version - trigger PR
